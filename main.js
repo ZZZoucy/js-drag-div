@@ -22,7 +22,7 @@ document.onmousemove = function (e) {
         var top = parseInt(div1.style.top) || 0;
         var left = parseInt(div1.style.left) || 0;
         div1.style.top = top + deltaY + 'px';
-        div.style.left = left + deltaX + 'px';
+        div1.style.left = left + deltaX + 'px';
         lastX = e.clientX;
         lastY = e.clientY;
     }
